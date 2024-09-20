@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+    padding-top: 92px;
+}
+
+.anchor::before {
+    content: '';
+    display: block;
+    margin-top: -50px; /* Величина смещения */
+    padding-top: 50px;
+    visibility: hidden;
+  }
+  
+.main{
+    padding: 0px 55px 92px;
+    box-sizing: border-box;
+}
+
+.headerSite{
+    background-color: #007765;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 55px;
+}
+
+.headerSite > * {
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.logo{
+    margin: 20px 0px;
+}
+
+.navigateMenu{
+    color: white !important;
+    text-decoration: none !important;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 20px 0px;
+}
+
+.navigateMenu > * {
+    padding: 8px;
+    font-weight: 400;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.mainTitle {
+    font-size: 72px;
+    color: white;
+    padding: 160px 0px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.main1 {
+    background: url(backgrounds/backgroundPiperNet.png);
+    background-size: cover;
+    width: auto;
+}
+
+.greenTitle {
+    color:#007765 !important;
+    font-size: 64px !important;
+    font-weight: 500 !important; 
+    margin: 0px 0px 16px !important;
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+    margin: auto;
+    font-size: 32px;
+    font-weight: 400;
+    max-width: 1219px;
+    padding: 0px;
+}
+
+.content {
+    padding: 0px 0px ;
+    max-width: 1219px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.main2 {
+    background: url(backgrounds/backgroundBlue.png);
+    background-size: cover;
+    background-position: center center;
+    width: auto;
+    margin: 0px 0px 48px;
+}
+
+.text2 {
+    max-width: 1219px !important;
+    text-align: center;
+    margin: auto;
+}
+
+.title2 {
+    padding: 163px 128px;
+    font-size: 48px !important;
+    font-weight:400;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.piedPiperCoin > * > * {
+    padding: 0px;
+}
+
+.logo2 {
+    float: left;
+    width: 115px;
+    height: 115px;
+    padding-right: 48px !important;
+}
+
+.logoText {
+    padding-bottom: 40px;
+}
+
+.blockImg {
+    padding: 25px 0% 30px;
+    text-align: center; 
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.teamImg {
+    width: 168px;
+    height: 168px;
+}
+
+.nameTeam {
+    font-size: 24px;
+    font-weight: 700;
+    color:#007765;
+}
+
+.roleTeam {
+    font-size: 18px;
+    font-weight: 400;
+    color:black;
+
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.downBar {
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+    height: 176px;
+}
+
+.downText {
+    padding: 48px 0px 64px;
+    width: 540px;
+    text-align: center;
+    margin: auto;
+}
+
+.the {
+    background-color: #EEEEEE;
+}
