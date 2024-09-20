@@ -3,7 +3,7 @@
 body {
     font-family: Roboto, sans-serif;
     margin: 0px;
-    padding-top: 92px;
+    padding-top: 90px;
 }
 
 .anchor::before {
@@ -12,7 +12,15 @@ body {
     margin-top: -50px; /* Величина смещения */
     padding-top: 50px;
     visibility: hidden;
-  }
+}
+
+.anchor2::before {
+    display: block;
+    content: " ";
+    margin-top: -90px;
+    height: 75px;
+    visibility: hidden;
+}
   
 .main{
     padding: 0px 55px 92px;
